@@ -1,0 +1,29 @@
+.container {
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #817272;
+    border-radius: 8px;
+    position: flex;}
+.description {
+    width: 200%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 50%;
+    }
+    .description {
+        width: 20%;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 40%;
+        padding: 10px;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
